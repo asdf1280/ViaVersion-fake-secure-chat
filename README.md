@@ -1,6 +1,6 @@
 # README - What this fork does
 
-Since 1.19.1-rc2, Minecraft client sends warning message when the server doesn't enforce secure chat. However, this is only determined using one boolean value that server sends during connection process. Thus, we can just make the server send 'true' instead of 'false', which was specified by original ViaVersion dev. It's as simple as one line change.
+Since 1.19.1-rc2, Minecraft client sends warning message when the server doesn't enforce secure chat. However, this is only determined using one boolean value that server sends during connection process. Thus, we can just make the server send 'true' instead of 'false', which was specified by original ViaVersion dev. It's as simple as one line change. No, this didn't have any side effects according to clientside source code for now.
 
 # ViaVersion - Spigot, Sponge, BungeeCord, Velocity
 
