@@ -2,6 +2,12 @@
 
 Since 1.19.1-rc2, Minecraft client sends warning message when the server doesn't enforce secure chat. However, this is only determined using one boolean value that server sends during connection process. Thus, we can just make the server send 'true' instead of 'false', which was specified by original ViaVersion dev. It's as simple as one line change. No, this didn't have any side effects according to clientside source code for now.
 
+The repo might not be always updated. However, you can make this change very easily by following the instructions below. It's very easy.
+
+1. Open `common/src/main/java/com/viaversion/viaversion/protocols/protocol1_19_1to1_19/Protocol1_19_1To1_19.java`
+2. Find `registerClientbound(ClientboundPackets1_19.SERVER_DATA, new PacketRemapper() {`
+3. Just change `false` with `true` in `create(Type.BOOLEAN, false); // Enforces secure chat`
+
 # ViaVersion - Spigot, Sponge, BungeeCord, Velocity
 
 [![Latest Release](https://img.shields.io/github/v/release/ViaVersion/ViaVersion)](https://viaversion.com)
