@@ -8,6 +8,8 @@ The repo might not be always updated. However, you can make this change very eas
 2. Find `registerClientbound(ClientboundPackets1_19.SERVER_DATA, new PacketRemapper() {`
 3. Just change `false` with `true` in `create(Type.BOOLEAN, false); // Enforces secure chat`
 
+Also check [da9910b](https://github.com/asdf1280/ViaVersion-fake-secure-chat/commit/da9910b611b2860cc4451a0e2f5c70b3ef26929b) for instructions.
+
 # ViaVersion - Spigot, Sponge, BungeeCord, Velocity
 
 [![Latest Release](https://img.shields.io/github/v/release/ViaVersion/ViaVersion)](https://viaversion.com)
