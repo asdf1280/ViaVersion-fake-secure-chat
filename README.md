@@ -1,3 +1,5 @@
+# Check 'dev' branch. Currently master branch doesn't support 1.19.1 at all.
+
 # ViaVersion - Spigot, Sponge, BungeeCord, Velocity
 
 [![Latest Release](https://img.shields.io/github/v/release/ViaVersion/ViaVersion)](https://viaversion.com)
